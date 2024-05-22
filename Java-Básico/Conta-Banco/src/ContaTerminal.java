@@ -21,7 +21,7 @@ public class ContaTerminal {
         double saldoCliente = scanner.nextDouble();
 
         
-       //imprimindo os dados obtidos pelo usuario
+       //imprimindo os dados obtidos pelo usuário
        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + numeroAgencia + ", conta " + numeroConta + " e seu saldo de " + saldoCliente + " já está disponível para saque."); 
         
        scanner.close(); //encerrar o scanner
